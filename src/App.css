@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,61 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+
+
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background:url('https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mobile-container {
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+.item {
+  opacity: 1;
+  cursor: move;
+  padding: 12px;
+  margin: 8px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+}
+/* 
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+} */
+
+@media (max-width: 768px) {
+  h2 {
+    display: none;
   }
 }
